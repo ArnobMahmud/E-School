@@ -20,6 +20,7 @@ a {
 
 img {
   max-width: 100%;
+  border-radius: 20px;
 }
 
 body {
@@ -63,14 +64,14 @@ nav ul li a {
   transition-duration: 0.3s;
 }
 
-nav ul li :hover{
-    color: white;
-    background-color: #21b573;
-    border-radius: 15px;
+nav ul li :hover {
+  color: white;
+  background-color: #21b573;
+  border-radius: 30px;
 }
 
-header{
-    padding-bottom:15px ;
+header {
+  padding-bottom: 15px;
 }
 .banner-content {
   width: 50%;
@@ -79,7 +80,7 @@ header{
 
 .banner-content span {
   color: #21b573;
-  font-size: 76px;
+  font-size: 74px;
 }
 
 .banner-content h4 {
@@ -89,7 +90,7 @@ header{
 }
 
 .banner-content h1 {
-  font-size: 65px;
+  font-size: 66px;
   padding: 5px 0px 10px;
   line-height: 1.2;
   color: #2c3131f5;
@@ -101,14 +102,14 @@ header{
   padding: 10px 0px;
 }
 
-.banner-content a {
-    background-color: #21b573;
-    border-radius: 15px;
-    display: inline-block;
-    padding: 10px 15px;
-    color: white;
-    margin-top: 10px;
-    margin-bottom: 20px;
+.btn {
+  background-color: #21b573;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 8px 21px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .banner-image {
@@ -116,27 +117,99 @@ header{
   padding: 52px;
 }
 
+.features-section {
+  padding: 40px 0px;
+}
 .col-4 {
   width: 25%;
-  padding: 30px 20px;
+  padding: 26px 20px;
 }
 .feature {
   text-align: center;
   background-color: #f5f5fa;
-  padding: 50px;
+  padding: 69px;
   border-radius: 20px;
 }
 .feature img {
   height: 100px;
 }
 .feature h2 {
-    padding: 10px 0px;
-    font-size: 20px;
-    color: #0f123cdb;
+  padding: 10px 0px;
+  font-size: 20px;
+  color: #0f123cdb;
 }
 .feature p {
-    font-size: 15px;
+  font-size: 15px;
 }
-.feature:hover{
-  box-shadow: 0px 10px 20px 5px #392f2f26;
+.feature:hover {
+  background-color: white;
+  box-shadow: -1px 12px 20px 7px #e9e9f3;
+}
+
+.course-section{
+    padding: 40px 0px;
+}
+.head {
+  text-align: center;
+  font-size: 24px;
+  color: #0f123cdb;
+  margin-bottom: 20px;
+}
+.col-3 {
+  width: 33.33%;
+  padding: 20px;
+}
+
+.course {
+  padding: 20px;
+  background:white;
+  border-radius: 20px;
+  box-shadow: -1px 12px 20px 7px #e9e9f3;
+}
+
+
+.course h1 {
+  padding: 20px 0px 10px;
+  font-size: 24px;
+  color: #2c3131f5;
+}
+
+.course p {
+  padding: 0px 0px 10px;
+  font-size: 16px;
+  color: #0f123cdb;
+}
+
+.course ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course ul {
+  font-size: 16px;
+  text-align: center;
+  color: rgb(36, 36, 82);
+}
+
+.testimonial{}
+.col-2{
+    align-items: center;
+}
+.client-img{
+    width: 15%;
+    padding: 20px;
+}
+
+.client-review{
+    width: 55%;
+    padding: 20px;
+}
+.client-review p{
+    font-size: 14px;
+    line-height: 1.7;
+    color: #0f123cdb;
+}
+
+.testimonial .flex {
+    justify-content: center;
 }
