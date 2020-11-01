@@ -27,6 +27,7 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+/********* COMMON SEGMENTS ***********/
 .align-center {
   align-items: center;
 }
@@ -38,6 +39,23 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+
+.btn {
+  background-color: #21b573;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 8px 21px;
+  color: white;
+  margin: 20px 0px 20px;
+}
+
+.head {
+  text-align: center;
+  font-size: 24px;
+  color: #0f123cdb;
+  margin-bottom: 20px;
+}
+/*********  HEADER START **********/
 
 .banner-section {
   background-color: #f5f5fa;
@@ -52,9 +70,8 @@ header {
 nav {
   width: 80%;
 }
+
 nav ul {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: flex-end;
 }
 
@@ -70,9 +87,6 @@ nav ul li :hover {
   border-radius: 30px;
 }
 
-header {
-  padding-bottom: 15px;
-}
 .banner-content {
   width: 50%;
   padding: 30px 30px;
@@ -84,7 +98,7 @@ header {
 }
 
 .banner-content h4 {
-  color: #fd511a;
+  color: #9c1c1cda;
   padding: 10px 0px 0px;
   font-size: 20px;
 }
@@ -102,20 +116,12 @@ header {
   padding: 10px 0px;
 }
 
-.btn {
-  background-color: #21b573;
-  border-radius: 30px;
-  display: inline-block;
-  padding: 8px 21px;
-  color: white;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
 .banner-image {
   width: 50%;
   padding: 52px;
 }
+
+/*********  FEATURES START **********/
 
 .features-section {
   padding: 40px 0px;
@@ -140,21 +146,18 @@ header {
 }
 .feature p {
   font-size: 15px;
+  color: #333136;
 }
 .feature:hover {
   background-color: white;
   box-shadow: -1px 12px 20px 7px #e9e9f3;
 }
 
-.course-section{
-    padding: 40px 0px;
+/*********  COURSE START **********/
+.course-section {
+  margin: 60px 0px;
 }
-.head {
-  text-align: center;
-  font-size: 24px;
-  color: #0f123cdb;
-  margin-bottom: 20px;
-}
+
 .col-3 {
   width: 33.33%;
   padding: 20px;
@@ -162,11 +165,10 @@ header {
 
 .course {
   padding: 20px;
-  background:white;
+  background: white;
   border-radius: 20px;
   box-shadow: -1px 12px 20px 7px #e9e9f3;
 }
-
 
 .course h1 {
   padding: 20px 0px 10px;
@@ -191,25 +193,74 @@ header {
   color: rgb(36, 36, 82);
 }
 
-.testimonial{}
-.col-2{
-    align-items: center;
+/*********  TESTIMONIAL START **********/
+.testimonial {
+  margin: 60px 0px;
 }
-.client-img{
-    width: 15%;
-    padding: 20px;
+.col-2 {
+  align-items: center;
+}
+.client-img {
+  width: 15%;
+  padding: 20px;
 }
 
-.client-review{
-    width: 55%;
-    padding: 20px;
+.client-review {
+  width: 55%;
+  padding: 20px;
 }
-.client-review p{
-    font-size: 14px;
-    line-height: 1.7;
-    color: #0f123cdb;
+.client-review p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #0f123cdb;
 }
 
 .testimonial .flex {
-    justify-content: center;
+  justify-content: center;
+}
+
+/*********  FOOTER START **********/
+
+footer {
+  margin-top: 80px 0px 0px;
+  background-color: #282531;
+  padding: 80px 0px 20px;
+}
+
+footer p {
+  font-size: 20px;
+  color: white;
+}
+
+footer .col-1-4 {
+  width: 40%;
+  padding-right: 50px;
+}
+footer .col-2-4 {
+  width: 20%;
+}
+
+footer .col-1-4 p {
+  font-size: 18px;
+}
+footer .col-2-4 ul li strong {
+  color: #21b573;
+  font-size: 20px;
+}
+footer .col-2-4 ul li a {
+  color: rgb(237, 230, 243);
+  font-weight: 200;
+  line-height: 2;
+}
+
+footer .copyright {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  margin-top: 80px;
+}
+
+footer .copyright a {
+  display: inline-block;
+  color: #21b573;
 }
