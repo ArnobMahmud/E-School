@@ -60,15 +60,15 @@ body {
 .banner-section {
   background-color: #f5f5fa;
 }
-header {
-  padding: 10px 0px;
-}
+
 .logo {
-  width: 15%;
+  width: 20%;
+  padding: 20px;
 }
 
 nav {
   width: 80%;
+  padding: 20px;
 }
 
 nav ul {
@@ -89,7 +89,7 @@ nav ul li :hover {
 
 .banner-content {
   width: 50%;
-  padding: 30px 30px;
+  padding: 30px 20px;
 }
 
 .banner-content span {
@@ -235,6 +235,7 @@ footer p {
 footer .col-1-4 {
   width: 40%;
   padding-right: 50px;
+  padding-left: 20px;
 }
 footer .col-2-4 {
   width: 20%;
